@@ -1,0 +1,92 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/restaurant"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20px"
+        android:fontFamily="@font/aclonica"
+        android:gravity="center"
+        android:paddingTop="30px"
+        android:text="Welcome To My Restaurant"
+        android:textColor="#FFFFFF"
+        android:textSize="27sp"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/editText"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="10px"
+        android:layout_marginRight="30px"
+        android:ems="10"
+        android:hint="Enter your name"
+        android:inputType="textPersonName"
+        android:paddingTop="30px"
+        android:textColor="#fff"
+        android:textColorHint="#F4F4F4" />
+
+    <EditText
+        android:id="@+id/editText1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="10px"
+        android:layout_marginRight="30px"
+        android:ems="10"
+        android:hint="Item1"
+        android:inputType="textPersonName"
+        android:paddingTop="30px"
+        android:textColor="#fff"
+        android:textColorHint="#F6F0F0" />
+
+    <EditText
+        android:id="@+id/editText2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="10px"
+        android:layout_marginRight="30px"
+        android:ems="10"
+        android:hint="Item2"
+        android:inputType="textPersonName"
+        android:paddingTop="30px"
+        android:textColor="#fff"
+        android:textColorHint="#F6F0F0" />
+
+    <EditText
+        android:id="@+id/editText3"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="30px"
+        android:layout_marginTop="10px"
+        android:layout_marginRight="30px"
+        android:ems="10"
+        android:hint="Item3"
+        android:inputType="textPersonName"
+        android:paddingTop="30px"
+        android:textColor="#fff"
+        android:textColorHint="#FFFCFC" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="350px"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="50px"
+        android:background="@drawable/fbackground"
+        android:text="Order Now"
+        android:textColor="#fff"
+        android:textSize="22sp"
+        android:textStyle="bold" />
+</LinearLayout>
